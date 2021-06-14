@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/statusBluetoothTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/onBtn"
+        android:minWidth="320dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Включить"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/offBtn"
+        android:minWidth="320dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выключить"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/discoverableBtn"
+        android:minWidth="320dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сделать видимым для других"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/pairedBtn"
+        android:minWidth="320dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Показать сопряженные устройства"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/pairedTv"
+        android:minWidth="200dp"
+        android:text=""
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

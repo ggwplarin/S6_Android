@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FinanceApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="deposit">
+        <item>Заработная плата</item>
+        <item>Переводы</item>
+        <item>Другое</item>
+    </string-array>
+    <string-array name="withdraw">
+        <item>Развлечение</item>
+        <item>Продукты</item>
+        <item>Одежда</item>
+        <item>Здоровье</item>
+        <item>Другое</item>
+    </string-array>
+</resources>

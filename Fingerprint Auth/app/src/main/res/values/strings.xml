@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FingerprintScanner</string>
+    <string name="btnName">Авторизоваться при помощи отпечатка пальца</string>
+</resources>

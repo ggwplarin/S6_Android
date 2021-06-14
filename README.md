@@ -28,7 +28,7 @@
 
 [Doc](https://drive.google.com/file/d/1Am3AvdHpOCervegqDJ1lYyM_IjjC5pjh/view?usp=sharing)
 
-## Bluetoth
+## Bluetooth
 
 [Src]()
 
