@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Виджет</string>
+    <string name="appwidget_text">Виджет</string>
+    <string name="add_widget">Добавить виджет</string>
+    <string name="open_web">Тык</string>
+</resources>
